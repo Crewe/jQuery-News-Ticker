@@ -1,23 +1,26 @@
 /* Ticker Styling */
 .ticker-wrapper.has-js {
-	margin: 10px 0px 10px 0px;
+	/* margin: 10px 0px 10px 0px; */
 	/*padding: 0px 20px;*/
-	width: 730px;
-	height: 187px;
+	width: 710px;
+	height: 168px;
 	display: block;
 	/* -webkit-border-radius: 15px;
 	-moz-border-radius: 15px; 
 	border-radius: 15px;*/
 	background-color: #f8f0db;
+	background-color: red;
 	font-size: 0.75em;
+	overflow: hidden;
 }
 .ticker {
 	width: 710px;
-	height: 187px;
+	height: 168px;
 	display: block;
 	position: relative;
 	overflow: hidden;
 	background-color: #f8f0db;
+	background-image: url('../images/jqnt-placeholder.png');
 }
 .ticker-title {
 	padding-top: 9px;
@@ -29,9 +32,9 @@
 }
 .ticker-content {
 	margin: 0px;
-	padding-top: 9px;
+/*	padding-top: 9px;
 	padding-bottom: 9px;
-	position: absolute;
+*/	position: absolute;
 	color: #1F527B;
 	font-weight: bold;
 	background-color: #f8f0db;
@@ -81,8 +84,8 @@
 	list-style-type: none;
 	float: left;
 	position:absolute;
-	margin-left:630px;
-	margin-top:150px;
+	margin-left:635px;
+	margin-top:141px;
 }
 .ticker-controls li {
 	padding: 0px;
@@ -94,7 +97,7 @@
 	display: block;
 }
 .ticker-controls li.jnt-play-pause {
-	background-image: url('../images/controls.png');
+	background-image: url('../img/controls.png');
 	background-position: 32px 16px;
 }
 .ticker-controls li.jnt-play-pause.over {
@@ -104,7 +107,7 @@
 	background-position: 32px 0px;
 }
 .ticker-controls li.jnt-play-pause.paused {
-	background-image: url('../images/controls.png');	
+	background-image: url('../img/controls.png');	
 	background-position: 48px 16px;
 }
 .ticker-controls li.jnt-play-pause.paused.over {
@@ -114,7 +117,7 @@
 	background-position: 48px 0px;
 }
 .ticker-controls li.jnt-prev {
-	background-image: url('../images/controls.png');
+	background-image: url('../img/controls.png');
 	background-position: 0px 16px;		
 }
 .ticker-controls li.jnt-prev.over {
@@ -124,7 +127,7 @@
 	background-position: 0px 0px;		
 }
 .ticker-controls li.jnt-next {
-	background-image: url('../images/controls.png');	
+	background-image: url('../img/controls.png');	
 	background-position: 16px 16px;	
 }
 .ticker-controls li.jnt-next.over {
@@ -158,3 +161,4 @@
 .right .ticker-controls {
     padding-right: 6px;
 }
+
